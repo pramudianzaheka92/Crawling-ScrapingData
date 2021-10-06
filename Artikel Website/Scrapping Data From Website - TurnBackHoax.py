@@ -41,7 +41,7 @@ for i in column:
     #print(link)
 
 
-# In[92]:
+# In[4]:
 
 
 """
@@ -63,7 +63,7 @@ data.append([text, link])
 """
 
 
-# In[4]:
+# In[5]:
 
 
 # Memasukkan hasil scrapping ke dalam DataFrame
@@ -71,7 +71,7 @@ df1 = pd.DataFrame(data)
 df1.head()
 
 
-# In[5]:
+# In[6]:
 
 
 # Mengganti nama kolom pada DataFrame "df1"
@@ -79,7 +79,7 @@ df1.rename(columns={0:"Text", 1:"URL"}, inplace = True)
 df1.head()
 
 
-# In[6]:
+# In[7]:
 
 
 df1.info()
@@ -87,7 +87,7 @@ df1.info()
 
 # ### Halaman 2
 
-# In[7]:
+# In[8]:
 
 
 # Memanggil keyword dan menyalin url
@@ -95,7 +95,7 @@ keyword = "covid-19"
 url = "https://turnbackhoax.id/page/2/?s={}".format(keyword)
 
 
-# In[8]:
+# In[9]:
 
 
 # Scrapping data per halaman secara otomatis
@@ -119,7 +119,7 @@ for i in column:
     #print(link)
 
 
-# In[9]:
+# In[10]:
 
 
 # Memasukkan hasil scrapping ke dalam DataFrame
@@ -127,7 +127,7 @@ df2 = pd.DataFrame(data)
 df2.head()
 
 
-# In[10]:
+# In[11]:
 
 
 # Mengganti nama kolom pada DataFrame "df2"
@@ -135,7 +135,7 @@ df2.rename(columns={0:"Text", 1:"URL"}, inplace = True)
 df2.head()
 
 
-# In[11]:
+# In[12]:
 
 
 df2.info()
@@ -143,7 +143,7 @@ df2.info()
 
 # ### Halaman 3
 
-# In[12]:
+# In[13]:
 
 
 # Memanggil keyword dan menyalin url
@@ -151,7 +151,7 @@ keyword = "covid-19"
 url = "https://turnbackhoax.id/page/3/?s={}".format(keyword)
 
 
-# In[13]:
+# In[14]:
 
 
 # Scrapping data per halaman secara otomatis
@@ -175,7 +175,7 @@ for i in column:
     #print(link)
 
 
-# In[14]:
+# In[15]:
 
 
 # Memasukkan hasil scrapping ke dalam DataFrame
@@ -183,7 +183,7 @@ df3 = pd.DataFrame(data)
 df3.head()
 
 
-# In[15]:
+# In[16]:
 
 
 # Mengganti nama kolom pada DataFrame "df3"
@@ -191,7 +191,7 @@ df3.rename(columns={0:"Text", 1:"URL"}, inplace = True)
 df3.head()
 
 
-# In[16]:
+# In[17]:
 
 
 df3.info()
@@ -199,7 +199,7 @@ df3.info()
 
 # ### Halaman 4
 
-# In[17]:
+# In[18]:
 
 
 # Memanggil keyword dan menyalin url
@@ -207,7 +207,7 @@ keyword = "covid-19"
 url = "https://turnbackhoax.id/page/4/?s={}".format(keyword)
 
 
-# In[18]:
+# In[19]:
 
 
 # Scrapping data per halaman secara otomatis
@@ -231,7 +231,7 @@ for i in column:
     #print(link)
 
 
-# In[19]:
+# In[20]:
 
 
 # Memasukkan hasil scrapping ke dalam DataFrame
@@ -239,7 +239,7 @@ df4 = pd.DataFrame(data)
 df4.head()
 
 
-# In[20]:
+# In[21]:
 
 
 # Mengganti nama kolom pada DataFrame "df4"
@@ -247,7 +247,7 @@ df4.rename(columns={0:"Text", 1:"URL"}, inplace = True)
 df4.head()
 
 
-# In[21]:
+# In[22]:
 
 
 df4.info()
@@ -255,7 +255,7 @@ df4.info()
 
 # ### Halaman 5
 
-# In[22]:
+# In[23]:
 
 
 # Memanggil keyword dan menyalin url
@@ -263,7 +263,7 @@ keyword = "covid-19"
 url = "https://turnbackhoax.id/page/5/?s={}".format(keyword)
 
 
-# In[23]:
+# In[24]:
 
 
 # Scrapping data per halaman secara otomatis
@@ -287,7 +287,7 @@ for i in column:
     #print(link)
 
 
-# In[24]:
+# In[25]:
 
 
 # Memasukkan hasil scrapping ke dalam DataFrame
@@ -295,7 +295,7 @@ df5 = pd.DataFrame(data)
 df5.head()
 
 
-# In[25]:
+# In[26]:
 
 
 # Mengganti nama kolom pada DataFrame "df5"
@@ -305,7 +305,7 @@ df5.head()
 
 # ### Halaman 6
 
-# In[26]:
+# In[27]:
 
 
 # Memanggil keyword dan menyalin url
@@ -313,7 +313,7 @@ keyword = "covid-19"
 url = "https://turnbackhoax.id/page/6/?s={}".format(keyword)
 
 
-# In[27]:
+# In[28]:
 
 
 # Request URL
@@ -334,7 +334,7 @@ for i in column:
     #print(link)
 
 
-# In[28]:
+# In[29]:
 
 
 # Memasukkan hasil scrapping ke dalam DataFrame
@@ -342,7 +342,7 @@ df6 = pd.DataFrame(data)
 df6.head()
 
 
-# In[29]:
+# In[30]:
 
 
 # Mengganti nama kolom pada DataFrame "df6"
@@ -352,7 +352,7 @@ df6.head()
 
 # ### Halaman 7 
 
-# In[30]:
+# In[31]:
 
 
 # Memanggil keyword dan menyalin url
@@ -360,7 +360,7 @@ keyword = "covid-19"
 url = "https://turnbackhoax.id/page/7/?s={}".format(keyword)
 
 
-# In[31]:
+# In[32]:
 
 
 # Request URL
@@ -381,7 +381,7 @@ for i in column:
     #print(link)
 
 
-# In[32]:
+# In[33]:
 
 
 # Memasukkan hasil scrapping ke dalam DataFrame
@@ -389,7 +389,7 @@ df7 = pd.DataFrame(data)
 df7.head()
 
 
-# In[33]:
+# In[34]:
 
 
 # Mengganti nama kolom pada DataFrame "df7"
@@ -397,7 +397,7 @@ df7.rename(columns={0:"Text", 1:"URL"}, inplace = True)
 df7.head()
 
 
-# In[34]:
+# In[35]:
 
 
 df7.info()
@@ -405,7 +405,7 @@ df7.info()
 
 # ### Halaman 8 
 
-# In[35]:
+# In[36]:
 
 
 # Memanggil keyword dan menyalin url
@@ -413,7 +413,7 @@ keyword = "covid-19"
 url = "https://turnbackhoax.id/page/8/?s={}".format(keyword)
 
 
-# In[36]:
+# In[37]:
 
 
 # Request URL
@@ -433,7 +433,7 @@ for i in column:
     data.append([text, link])
 
 
-# In[37]:
+# In[38]:
 
 
 # Memasukkan hasil scrapping ke dalam DataFrame
@@ -441,7 +441,7 @@ df8 = pd.DataFrame(data)
 df8.head()
 
 
-# In[38]:
+# In[39]:
 
 
 # Mengganti nama kolom pada DataFrame "df8"
@@ -449,7 +449,7 @@ df8.rename(columns={0:"Text", 1:"URL"}, inplace = True)
 df8.head()
 
 
-# In[39]:
+# In[40]:
 
 
 df8.tail()
@@ -457,7 +457,7 @@ df8.tail()
 
 # ### Halaman 9 
 
-# In[40]:
+# In[41]:
 
 
 # Memanggil keyword dan menyalin url
@@ -465,7 +465,7 @@ keyword = "covid-19"
 url = "https://turnbackhoax.id/page/9/?s={}".format(keyword)
 
 
-# In[41]:
+# In[42]:
 
 
 # Request URL
@@ -485,7 +485,7 @@ for i in column:
     data.append([text, link])
 
 
-# In[42]:
+# In[43]:
 
 
 # Memasukkan hasil scrapping ke dalam DataFrame
@@ -493,7 +493,7 @@ df9 = pd.DataFrame(data)
 df9.head()
 
 
-# In[43]:
+# In[44]:
 
 
 # Mengganti nama kolom pada DataFrame "df9"
@@ -503,7 +503,7 @@ df9.head()
 
 # ### Halaman 10 
 
-# In[44]:
+# In[45]:
 
 
 # Memanggil keyword dan menyalin url
@@ -511,7 +511,7 @@ keyword = "covid-19"
 url = "https://turnbackhoax.id/page/10/?s={}".format(keyword)
 
 
-# In[45]:
+# In[46]:
 
 
 # Request URL
@@ -531,7 +531,7 @@ for i in column:
     data.append([text, link])
 
 
-# In[46]:
+# In[47]:
 
 
 # Memasukkan hasil scrapping ke dalam DataFrame
@@ -539,7 +539,7 @@ df10 = pd.DataFrame(data)
 df10.head()
 
 
-# In[47]:
+# In[48]:
 
 
 # Mengganti nama kolom pada DataFrame "df10"
@@ -549,7 +549,7 @@ df10.tail()
 
 # ### Halaman 11 
 
-# In[48]:
+# In[49]:
 
 
 # Memanggil keyword dan menyalin url
@@ -557,7 +557,7 @@ keyword = "covid-19"
 url = "https://turnbackhoax.id/page/11/?s={}".format(keyword)
 
 
-# In[49]:
+# In[50]:
 
 
 # Request URL
@@ -577,7 +577,7 @@ for i in column:
     data.append([text, link])
 
 
-# In[50]:
+# In[51]:
 
 
 # Memasukkan hasil scrapping ke dalam DataFrame
@@ -585,7 +585,7 @@ df11 = pd.DataFrame(data)
 df11.tail()
 
 
-# In[51]:
+# In[52]:
 
 
 # Mengganti nama kolom pada DataFrame "df11"
@@ -595,7 +595,7 @@ df11.head()
 
 # ### Halaman 12
 
-# In[52]:
+# In[53]:
 
 
 # Memanggil keyword dan menyalin url
@@ -603,7 +603,7 @@ keyword = "covid-19"
 url = "https://turnbackhoax.id/page/12/?s={}".format(keyword)
 
 
-# In[53]:
+# In[54]:
 
 
 # Request URL
@@ -623,7 +623,7 @@ for i in column:
     data.append([text, link])
 
 
-# In[149]:
+# In[55]:
 
 
 """
@@ -646,7 +646,7 @@ for page in range(1, 56):
 """
 
 
-# In[54]:
+# In[56]:
 
 
 # Memasukkan hasil scrapping ke dalam DataFrame
@@ -654,7 +654,7 @@ df12 = pd.DataFrame(data)
 df12.tail()
 
 
-# In[55]:
+# In[57]:
 
 
 # Mengganti nama kolom pada DataFrame "df12"
@@ -664,7 +664,7 @@ df12.head()
 
 # ### Halaman 13
 
-# In[56]:
+# In[58]:
 
 
 # Memanggil keyword dan menyalin url
@@ -672,7 +672,7 @@ keyword = "covid-19"
 url = "https://turnbackhoax.id/page/13/?s={}".format(keyword)
 
 
-# In[57]:
+# In[59]:
 
 
 # Request URL
@@ -692,7 +692,7 @@ for i in column:
     data.append([text, link])
 
 
-# In[58]:
+# In[60]:
 
 
 # Memasukkan hasil scrapping ke dalam DataFrame
@@ -700,7 +700,7 @@ df13 = pd.DataFrame(data)
 df13.tail()
 
 
-# In[59]:
+# In[61]:
 
 
 # Mengganti nama kolom pada DataFrame "df13"
@@ -710,7 +710,7 @@ df13.head()
 
 # ### Halaman 14
 
-# In[60]:
+# In[62]:
 
 
 # Memanggil keyword dan menyalin url
@@ -718,7 +718,7 @@ keyword = "covid-19"
 url = "https://turnbackhoax.id/page/14/?s={}".format(keyword)
 
 
-# In[61]:
+# In[63]:
 
 
 # Request URL
@@ -738,7 +738,7 @@ for i in column:
     data.append([text, link])
 
 
-# In[62]:
+# In[64]:
 
 
 # Memasukkan hasil scrapping ke dalam DataFrame
@@ -746,7 +746,7 @@ df14 = pd.DataFrame(data)
 df14.tail()
 
 
-# In[63]:
+# In[65]:
 
 
 # Mengganti nama kolom pada DataFrame "df14"
@@ -756,7 +756,7 @@ df14.head()
 
 # ### Halaman 15
 
-# In[64]:
+# In[66]:
 
 
 # Memanggil keyword dan menyalin url
@@ -764,7 +764,7 @@ keyword = "covid-19"
 url = "https://turnbackhoax.id/page/15/?s={}".format(keyword)
 
 
-# In[65]:
+# In[67]:
 
 
 # Request URL
@@ -784,7 +784,7 @@ for i in column:
     data.append([text, link])
 
 
-# In[66]:
+# In[68]:
 
 
 # Memasukkan hasil scrapping ke dalam DataFrame
@@ -792,7 +792,7 @@ df15 = pd.DataFrame(data)
 df15.tail()
 
 
-# In[67]:
+# In[69]:
 
 
 # Mengganti nama kolom pada DataFrame "df15"
@@ -802,7 +802,7 @@ df15.head()
 
 # ### Halaman 16
 
-# In[68]:
+# In[70]:
 
 
 # Memanggil keyword dan menyalin url
@@ -810,7 +810,7 @@ keyword = "covid-19"
 url = "https://turnbackhoax.id/page/16/?s={}".format(keyword)
 
 
-# In[69]:
+# In[71]:
 
 
 # Request URL
@@ -830,7 +830,7 @@ for i in column:
     data.append([text, link])
 
 
-# In[70]:
+# In[72]:
 
 
 # Memasukkan hasil scrapping ke dalam DataFrame
@@ -838,7 +838,7 @@ df16 = pd.DataFrame(data)
 df16.tail()
 
 
-# In[71]:
+# In[73]:
 
 
 # Mengganti nama kolom pada DataFrame "df16"
@@ -848,7 +848,7 @@ df16.head()
 
 # ### Halaman 17
 
-# In[72]:
+# In[74]:
 
 
 # Memanggil keyword dan menyalin url
@@ -856,7 +856,7 @@ keyword = "covid-19"
 url = "https://turnbackhoax.id/page/17/?s={}".format(keyword)
 
 
-# In[73]:
+# In[75]:
 
 
 # Request URL
@@ -876,7 +876,7 @@ for i in column:
     data.append([text, link])
 
 
-# In[74]:
+# In[76]:
 
 
 # Memasukkan hasil scrapping ke dalam DataFrame
@@ -884,7 +884,7 @@ df17 = pd.DataFrame(data)
 df17.tail()
 
 
-# In[75]:
+# In[77]:
 
 
 # Mengganti nama kolom pada DataFrame "df17"
@@ -894,7 +894,7 @@ df17.head()
 
 # ### Halaman 18
 
-# In[76]:
+# In[78]:
 
 
 # Memanggil keyword dan menyalin url
@@ -902,7 +902,7 @@ keyword = "covid-19"
 url = "https://turnbackhoax.id/page/18/?s={}".format(keyword)
 
 
-# In[77]:
+# In[79]:
 
 
 # Request URL
@@ -922,7 +922,7 @@ for i in column:
     data.append([text, link])
 
 
-# In[78]:
+# In[80]:
 
 
 # Memasukkan hasil scrapping ke dalam DataFrame
@@ -930,7 +930,7 @@ df18 = pd.DataFrame(data)
 df18.tail()
 
 
-# In[79]:
+# In[81]:
 
 
 # Mengganti nama kolom pada DataFrame "df18"
@@ -940,7 +940,7 @@ df18.head()
 
 # ### Halaman 19
 
-# In[80]:
+# In[82]:
 
 
 # Memanggil keyword dan menyalin url
@@ -948,7 +948,7 @@ keyword = "covid-19"
 url = "https://turnbackhoax.id/page/19/?s={}".format(keyword)
 
 
-# In[81]:
+# In[83]:
 
 
 # Request URL
@@ -968,7 +968,7 @@ for i in column:
     data.append([text, link])
 
 
-# In[82]:
+# In[84]:
 
 
 # Memasukkan hasil scrapping ke dalam DataFrame
@@ -976,7 +976,7 @@ df19 = pd.DataFrame(data)
 df19.tail()
 
 
-# In[83]:
+# In[85]:
 
 
 # Mengganti nama kolom pada DataFrame "df19"
@@ -986,7 +986,7 @@ df19.head()
 
 # ### Halaman 20 
 
-# In[84]:
+# In[86]:
 
 
 # Memanggil keyword dan menyalin url
@@ -994,7 +994,7 @@ keyword = "covid-19"
 url = "https://turnbackhoax.id/page/20/?s={}".format(keyword)
 
 
-# In[85]:
+# In[87]:
 
 
 # Request URL
@@ -1014,7 +1014,7 @@ for i in column:
     data.append([text, link])
 
 
-# In[86]:
+# In[88]:
 
 
 # Memasukkan hasil scrapping ke dalam DataFrame
@@ -1022,7 +1022,7 @@ df20 = pd.DataFrame(data)
 df20.tail()
 
 
-# In[87]:
+# In[89]:
 
 
 # Mengganti nama kolom pada DataFrame "df20"
@@ -1032,7 +1032,7 @@ df20.head()
 
 # ### Halaman 21
 
-# In[88]:
+# In[90]:
 
 
 # Memanggil keyword dan menyalin url
@@ -1040,7 +1040,7 @@ keyword = "covid-19"
 url = "https://turnbackhoax.id/page/21/?s={}".format(keyword)
 
 
-# In[89]:
+# In[91]:
 
 
 # Request URL
@@ -1060,7 +1060,7 @@ for i in column:
     data.append([text, link])
 
 
-# In[90]:
+# In[92]:
 
 
 # Memasukkan hasil scrapping ke dalam DataFrame
@@ -1068,7 +1068,7 @@ df21 = pd.DataFrame(data)
 df21.tail()
 
 
-# In[91]:
+# In[93]:
 
 
 # Mengganti nama kolom pada DataFrame "df21"
@@ -1078,7 +1078,7 @@ df21.head()
 
 # ### Halaman 22
 
-# In[92]:
+# In[94]:
 
 
 # Memanggil keyword dan menyalin url
@@ -1086,7 +1086,7 @@ keyword = "covid-19"
 url = "https://turnbackhoax.id/page/22/?s={}".format(keyword)
 
 
-# In[93]:
+# In[95]:
 
 
 # Request URL
@@ -1106,7 +1106,7 @@ for i in column:
     data.append([text, link])
 
 
-# In[94]:
+# In[96]:
 
 
 # Memasukkan hasil scrapping ke dalam DataFrame
@@ -1114,7 +1114,7 @@ df22 = pd.DataFrame(data)
 df22.tail()
 
 
-# In[95]:
+# In[97]:
 
 
 # Mengganti nama kolom pada DataFrame "df22"
@@ -1124,7 +1124,7 @@ df22.head()
 
 # ### Halaman 23
 
-# In[96]:
+# In[98]:
 
 
 # Memanggil keyword dan menyalin url
@@ -1132,7 +1132,7 @@ keyword = "covid-19"
 url = "https://turnbackhoax.id/page/23/?s={}".format(keyword)
 
 
-# In[97]:
+# In[99]:
 
 
 # Request URL
@@ -1152,7 +1152,7 @@ for i in column:
     data.append([text, link])
 
 
-# In[98]:
+# In[100]:
 
 
 # Memasukkan hasil scrapping ke dalam DataFrame
@@ -1160,7 +1160,7 @@ df23 = pd.DataFrame(data)
 df23.tail()
 
 
-# In[99]:
+# In[101]:
 
 
 # Mengganti nama kolom pada DataFrame "df23"
@@ -1170,7 +1170,7 @@ df23.head()
 
 # ### Halaman 24
 
-# In[100]:
+# In[102]:
 
 
 # Memanggil keyword dan menyalin url
@@ -1178,7 +1178,7 @@ keyword = "covid-19"
 url = "https://turnbackhoax.id/page/24/?s={}".format(keyword)
 
 
-# In[101]:
+# In[103]:
 
 
 # Request URL
@@ -1198,7 +1198,7 @@ for i in column:
     data.append([text, link])
 
 
-# In[102]:
+# In[104]:
 
 
 # Memasukkan hasil scrapping ke dalam DataFrame
@@ -1206,7 +1206,7 @@ df24 = pd.DataFrame(data)
 df24.tail()
 
 
-# In[103]:
+# In[105]:
 
 
 # Mengganti nama kolom pada DataFrame "df24"
@@ -1216,7 +1216,7 @@ df24.head()
 
 # ### Halaman 25
 
-# In[104]:
+# In[106]:
 
 
 # Memanggil keyword dan menyalin url
@@ -1224,7 +1224,7 @@ keyword = "covid-19"
 url = "https://turnbackhoax.id/page/25/?s={}".format(keyword)
 
 
-# In[105]:
+# In[107]:
 
 
 # Request URL
@@ -1244,7 +1244,7 @@ for i in column:
     data.append([text, link])
 
 
-# In[106]:
+# In[108]:
 
 
 # Memasukkan hasil scrapping ke dalam DataFrame
@@ -1252,7 +1252,7 @@ df25 = pd.DataFrame(data)
 df25.tail()
 
 
-# In[107]:
+# In[109]:
 
 
 # Mengganti nama kolom pada DataFrame "df25"
@@ -1262,7 +1262,7 @@ df25.head()
 
 # ### Halaman 26
 
-# In[108]:
+# In[110]:
 
 
 # Memanggil keyword dan menyalin url
@@ -1270,7 +1270,7 @@ keyword = "covid-19"
 url = "https://turnbackhoax.id/page/26/?s={}".format(keyword)
 
 
-# In[109]:
+# In[111]:
 
 
 # Request URL
@@ -1290,7 +1290,7 @@ for i in column:
     data.append([text, link])
 
 
-# In[110]:
+# In[112]:
 
 
 # Memasukkan hasil scrapping ke dalam DataFrame
@@ -1298,7 +1298,7 @@ df26 = pd.DataFrame(data)
 df26.head()
 
 
-# In[111]:
+# In[113]:
 
 
 # Mengganti nama kolom pada DataFrame "df26"
@@ -1308,7 +1308,7 @@ df26.tail()
 
 # ### Halaman 27 
 
-# In[112]:
+# In[114]:
 
 
 # Memanggil keyword dan menyalin url
@@ -1316,7 +1316,7 @@ keyword = "covid-19"
 url = "https://turnbackhoax.id/page/27/?s={}".format(keyword)
 
 
-# In[113]:
+# In[115]:
 
 
 # Request URL
@@ -1336,7 +1336,7 @@ for i in column:
     data.append([text, link])
 
 
-# In[114]:
+# In[116]:
 
 
 # Memasukkan hasil scrapping ke dalam DataFrame
@@ -1344,7 +1344,7 @@ df27 = pd.DataFrame(data)
 df27.head()
 
 
-# In[115]:
+# In[117]:
 
 
 # Mengganti nama kolom pada DataFrame "df27"
@@ -1354,7 +1354,7 @@ df27.tail()
 
 # ### Halaman 28
 
-# In[116]:
+# In[118]:
 
 
 # Memanggil keyword dan menyalin url
@@ -1362,7 +1362,7 @@ keyword = "covid-19"
 url = "https://turnbackhoax.id/page/28/?s={}".format(keyword)
 
 
-# In[117]:
+# In[119]:
 
 
 # Request URL
@@ -1382,7 +1382,7 @@ for i in column:
     data.append([text, link])
 
 
-# In[118]:
+# In[120]:
 
 
 # Memasukkan hasil scrapping ke dalam DataFrame
@@ -1390,7 +1390,7 @@ df28 = pd.DataFrame(data)
 df28.head()
 
 
-# In[119]:
+# In[121]:
 
 
 # Mengganti nama kolom pada DataFrame "df28"
@@ -1400,7 +1400,7 @@ df28.tail()
 
 # ### Halaman 29
 
-# In[120]:
+# In[122]:
 
 
 # Memanggil keyword dan menyalin url
@@ -1408,7 +1408,7 @@ keyword = "covid-19"
 url = "https://turnbackhoax.id/page/29/?s={}".format(keyword)
 
 
-# In[121]:
+# In[123]:
 
 
 # Request URL
@@ -1428,7 +1428,7 @@ for i in column:
     data.append([text, link])
 
 
-# In[122]:
+# In[124]:
 
 
 # Memasukkan hasil scrapping ke dalam DataFrame
@@ -1436,7 +1436,7 @@ df29 = pd.DataFrame(data)
 df29.head()
 
 
-# In[123]:
+# In[125]:
 
 
 # Mengganti nama kolom pada DataFrame "df29"
@@ -1446,7 +1446,7 @@ df29.tail()
 
 # ### Halaman 30 
 
-# In[124]:
+# In[126]:
 
 
 # Memanggil keyword dan menyalin url
@@ -1454,7 +1454,7 @@ keyword = "covid-19"
 url = "https://turnbackhoax.id/page/30/?s={}".format(keyword)
 
 
-# In[125]:
+# In[127]:
 
 
 # Request URL
@@ -1474,7 +1474,7 @@ for i in column:
     data.append([text, link])
 
 
-# In[126]:
+# In[128]:
 
 
 # Memasukkan hasil scrapping ke dalam DataFrame
@@ -1482,7 +1482,7 @@ df30 = pd.DataFrame(data)
 df30.head()
 
 
-# In[127]:
+# In[129]:
 
 
 # Mengganti nama kolom pada DataFrame "df30"
@@ -2136,7 +2136,7 @@ df44.tail()
 
 # ### Halaman 45
 
-# In[188]:
+# In[186]:
 
 
 # Memanggil keyword dan menyalin url
@@ -2144,7 +2144,7 @@ keyword = "covid-19"
 url = "https://turnbackhoax.id/page/45/?s={}".format(keyword)
 
 
-# In[189]:
+# In[187]:
 
 
 # Request URL
@@ -2164,7 +2164,7 @@ for i in column:
     data.append([text, link])
 
 
-# In[190]:
+# In[188]:
 
 
 # Memasukkan hasil scrapping ke dalam DataFrame
@@ -2172,7 +2172,7 @@ df45 = pd.DataFrame(data)
 df45.head()
 
 
-# In[191]:
+# In[189]:
 
 
 # Mengganti nama kolom pada DataFrame "df45"
@@ -2182,7 +2182,7 @@ df45.tail()
 
 # ### Halaman 46
 
-# In[192]:
+# In[190]:
 
 
 # Memanggil keyword dan menyalin url
@@ -2190,7 +2190,7 @@ keyword = "covid-19"
 url = "https://turnbackhoax.id/page/46/?s={}".format(keyword)
 
 
-# In[193]:
+# In[191]:
 
 
 # Request URL
@@ -2210,7 +2210,7 @@ for i in column:
     data.append([text, link])
 
 
-# In[194]:
+# In[192]:
 
 
 # Memasukkan hasil scrapping ke dalam DataFrame
@@ -2218,7 +2218,7 @@ df46 = pd.DataFrame(data)
 df46.head()
 
 
-# In[195]:
+# In[193]:
 
 
 # Mengganti nama kolom pada DataFrame "df46"
@@ -2228,7 +2228,7 @@ df46.tail()
 
 # ### Halaman 47
 
-# In[196]:
+# In[194]:
 
 
 # Memanggil keyword dan menyalin url
@@ -2236,7 +2236,7 @@ keyword = "covid-19"
 url = "https://turnbackhoax.id/page/47/?s={}".format(keyword)
 
 
-# In[197]:
+# In[195]:
 
 
 # Request URL
@@ -2256,7 +2256,7 @@ for i in column:
     data.append([text, link])
 
 
-# In[198]:
+# In[196]:
 
 
 # Memasukkan hasil scrapping ke dalam DataFrame
@@ -2264,7 +2264,7 @@ df47 = pd.DataFrame(data)
 df47.tail()
 
 
-# In[199]:
+# In[197]:
 
 
 # Mengganti nama kolom pada DataFrame "df47"
@@ -2274,7 +2274,7 @@ df47.head()
 
 # ### Halaman 48
 
-# In[200]:
+# In[198]:
 
 
 # Memanggil keyword dan menyalin url
@@ -2282,7 +2282,7 @@ keyword = "covid-19"
 url = "https://turnbackhoax.id/page/48/?s={}".format(keyword)
 
 
-# In[201]:
+# In[199]:
 
 
 # Request URL
@@ -2302,7 +2302,7 @@ for i in column:
     data.append([text, link])
 
 
-# In[202]:
+# In[200]:
 
 
 # Memasukkan hasil scrapping ke dalam DataFrame
@@ -2310,7 +2310,7 @@ df48 = pd.DataFrame(data)
 df48.tail()
 
 
-# In[203]:
+# In[201]:
 
 
 # Mengganti nama kolom pada DataFrame "df48"
@@ -2320,7 +2320,7 @@ df48.head()
 
 # ### Halaman 49
 
-# In[204]:
+# In[202]:
 
 
 # Memanggil keyword dan menyalin url
@@ -2328,7 +2328,7 @@ keyword = "covid-19"
 url = "https://turnbackhoax.id/page/49/?s={}".format(keyword)
 
 
-# In[205]:
+# In[203]:
 
 
 # Request URL
@@ -2348,7 +2348,7 @@ for i in column:
     data.append([text, link])
 
 
-# In[206]:
+# In[204]:
 
 
 # Memasukkan hasil scrapping ke dalam DataFrame
@@ -2356,7 +2356,7 @@ df49 = pd.DataFrame(data)
 df49.tail()
 
 
-# In[207]:
+# In[205]:
 
 
 # Mengganti nama kolom pada DataFrame "df49"
@@ -2366,7 +2366,7 @@ df49.head()
 
 # ### Halaman 50
 
-# In[210]:
+# In[206]:
 
 
 # Memanggil keyword dan menyalin url
@@ -2374,7 +2374,7 @@ keyword = "covid-19"
 url = "https://turnbackhoax.id/page/50/?s={}".format(keyword)
 
 
-# In[211]:
+# In[207]:
 
 
 # Request URL
@@ -2394,7 +2394,7 @@ for i in column:
     data.append([text, link])
 
 
-# In[212]:
+# In[208]:
 
 
 # Memasukkan hasil scrapping ke dalam DataFrame
@@ -2402,7 +2402,7 @@ df50 = pd.DataFrame(data)
 df50.tail()
 
 
-# In[213]:
+# In[209]:
 
 
 # Mengganti nama kolom pada DataFrame "df50"
@@ -2410,416 +2410,31 @@ df50.rename(columns={0:"Text", 1:"URL"}, inplace = True)
 df50.head()
 
 
-# In[ ]:
+# ### Menggabungkan Beberapa DataFrame Menjadi 1
 
+# In[210]:
 
 
+# Membuat DataFrame untuk menampung hasil dari 50 df
+data = [df1, df2, df3, df4, df5, df6, df7, df8, df9, df10, df11, df12, df13, df14, df15, df16, df17, df18, df19, df20, 
+       df21, df22, df23, df24, df25, df26, df27, df28, df29, df30, df31, df32, df33, df34, df35, df36, df37, df38, df39, df40,
+       df41, df42, df43, df44, df45, df46, df47, df48, df49, df50]
 
+# Menggabungkan 50 df menjadi 1 dengan fungsi "concat"
+data_scrapping = pd.concat(data)
 
-# In[ ]:
+data_scrapping.info()
 
 
+# In[211]:
 
 
+data_scrapping.tail()
 
-# In[ ]:
 
+# In[212]:
 
 
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[5]:
-
-
-# Scrapping data per halaman secara otomatis
-#for page in range (1, 10):
-
-#Request URL
-req = requests.get(url)
-
-# Merubah format dari yang semula HTML menjadi BeautifulSoup 
-soup = BeautifulSoup(req.text, "html.parser")
-
-#Memanggil seluruh artikel yang berada di halaman luar
-column = soup.findAll("div", "mh-loop-content mh-clearfix")
-
-data = []
-
-for i in column:
-    text = i.find("h3", "entry-title mh-loop-title").text.strip().split("\n")
-    link = i.find("a", {"rel": "bookmark"})["href"]
-    data.append(text)
-    #print(link)
-
-
-# In[1]:
-
-
-import requests
-from bs4 import BeautifulSoup
-
-URL = "https://turnbackhoax.id/?s=PPKM"
-page = requests.get(URL)
-
-soup = BeautifulSoup(page.content, "html.parser")
+# Menjadikan DataFrame "data_scrapping" ke dalam bentuk .csv
+data_scrapping.to_csv("data scrapping.csv", index=False)
 
