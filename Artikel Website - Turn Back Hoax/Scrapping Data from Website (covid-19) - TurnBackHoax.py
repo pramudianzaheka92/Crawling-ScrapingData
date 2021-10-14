@@ -2435,6 +2435,6 @@ data_scrapping.tail()
 # In[212]:
 
 
-# Menjadikan DataFrame "data_scrapping" ke dalam bentuk .csv
-data_scrapping.to_csv("data scrapping.csv", index=False)
+# Menjadikan DataFrame ke dalam bentuk .csv
+data_scrapping.to_csv("Data Scraping (turn back hoax) - covid-19.csv", index=False)
 
